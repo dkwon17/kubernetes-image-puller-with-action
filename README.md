@@ -2,7 +2,7 @@
 
 [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://che.openshift.io/f?url=https://github.com/che-incubator/kubernetes-image-puller)
 
-## About
+## ABOUT THIS REPO!!!
 
 To cache images, Kubernetes Image Puller creates a Daemonset on the desired cluster, which in turn creates a pod on each node in the cluster consisting of a list of containers with command `sleep 720h`.
 This ensures that all nodes in the cluster have those images cached. The `sleep` binary being used is [golang-based](https://github.com/che-incubator/kubernetes-image-puller/tree/main/sleep) (please see [Scratch Images](#scratch-images)).
@@ -10,7 +10,7 @@ We also periodically check the health of the daemonset and re-create it if neces
 
 The application can be deployed via Helm or by processing and applying OpenShift Templates. Also, there is a community supported operator available on the [OperatorHub](https://operatorhub.io/operator/kubernetes-imagepuller-operator).
 
-## Configuration
+## CONFIGURATION!!!
 Configuration is done via env vars pulled from `./deploy/helm/templates/configmap.yaml`, or `./deploy/openshift/configmap.yaml`, depending on the deployment method.
 The config values to be set are:
 
