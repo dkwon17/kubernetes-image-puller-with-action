@@ -10,7 +10,7 @@ We also periodically check the health of the daemonset and re-create it if neces
 
 The application can be deployed via Helm or by processing and applying OpenShift Templates. Also, there is a community supported operator available on the [OperatorHub](https://operatorhub.io/operator/kubernetes-imagepuller-operator).
 
-## Configuration
+## CONFIGURATION!!!
 Configuration is done via env vars pulled from `./deploy/helm/templates/configmap.yaml`, or `./deploy/openshift/configmap.yaml`, depending on the deployment method.
 The config values to be set are:
 
