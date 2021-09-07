@@ -13,7 +13,7 @@ jobs:
         id: try-in-web-ide-testing
         uses: dkwon17/try-in-web-ide@pull_request_target
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Defaults
           # add-comment: true
