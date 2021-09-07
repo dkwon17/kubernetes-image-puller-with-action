@@ -13,10 +13,10 @@ jobs:
         id: try-in-web-ide-testing
         uses: dkwon17/try-in-web-ide@pull_request_target
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Defaults
-          # add-comment: true
-          # add-status: true
-          # web-ide-instance: https://workspaces.openshift.com
-          # comment-badge: https://img.shields.io/badge/Eclipse_Che-Hosted%20by%20Red%20Hat-525C86?logo=eclipse-che&labelColor=FDB940
+          # add_comment: true
+          # add_status: true
+          # web_ide-instance: https://workspaces.openshift.com
+          # comment_badge: https://img.shields.io/badge/Eclipse_Che-Hosted%20by%20Red%20Hat-525C86?logo=eclipse-che&labelColor=FDB940
