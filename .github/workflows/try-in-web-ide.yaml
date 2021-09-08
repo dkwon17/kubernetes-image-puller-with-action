@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Web IDE Pull Request Link
         id: try-in-web-ide-testing
-        uses: dkwon17/try-in-web-ide@main
+        uses: dkwon17/try-in-web-ide@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
